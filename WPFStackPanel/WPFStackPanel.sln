@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFStackPanel", "WPFStackPanel\WPFStackPanel.csproj", "{433D2598-A5C5-42B5-8CA3-D1E20B9E4BAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{433D2598-A5C5-42B5-8CA3-D1E20B9E4BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433D2598-A5C5-42B5-8CA3-D1E20B9E4BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433D2598-A5C5-42B5-8CA3-D1E20B9E4BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433D2598-A5C5-42B5-8CA3-D1E20B9E4BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59251E6B-746B-4ADE-B3DF-FE8FB3DDF48E}
+	EndGlobalSection
+EndGlobal
