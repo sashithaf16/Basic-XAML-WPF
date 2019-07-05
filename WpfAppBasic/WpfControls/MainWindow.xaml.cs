@@ -24,5 +24,22 @@ namespace WpfControls
         {
             InitializeComponent();
         }
+
+        private void SaveBtn_Click(object sender, RoutedEventArgs e)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Full Name");
+            sb.Append(empName.Text);
+            sb.Append("Gender ?!");
+            sb.Append((bool)male.IsChecked ? "male" : "female");
+            sb.Append("Device");
+            sb.Append((bool)yes.IsChecked ? "yes" : "no");
+            sb.Append("Your Job");
+            sb.Append(job.SelectedItem.ToString());
+            sb.Append("Delivery Date");
+            sb.Append(deliveryDate.SelectedDate.ToString());
+            MessageBox.Show(sb.ToString());
+        }
     }
 }
+
