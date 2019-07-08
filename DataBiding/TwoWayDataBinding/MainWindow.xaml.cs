@@ -13,32 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace OneWayDataBiding
+namespace TwoWayDataBinding
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        private Employee emp;
         public MainWindow()
         {
-            {
-                InitializeComponent();
-                emp = new Employee()
-                {
-                    Name = "Josh",
-                    Title = "BA"
-                };
-                DataContext = emp;
-            }
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            emp.Name = "Jess";
-            emp.Title = "QA";
+            InitializeComponent();
         }
     }
 }
